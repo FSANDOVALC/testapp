@@ -3,7 +3,7 @@
 let registrarContacto = (pnombre, pcorreo, pfecha, pcomentario) => {
     axios({
         method: 'post',
-        url: '/api/registrar-contacto',
+        url: 'https://sandovalfrancisco-testapp.herokuapp.com/api/registrar-contacto',
         responseType: 'json',
         data: {
             nombre: pnombre,
@@ -19,7 +19,7 @@ let obtenerContactos = async() => {
         // fetch data from a url endpoint
         const response = await axios({
             method: 'get',
-            url: '/api/listar-contactos',
+            url: 'https://sandovalfrancisco-testapp.herokuapp.com/api/listar-contactos',
             responseType: 'json'
         });
 
