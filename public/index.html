@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>
+        Cronos -- Inicio
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+
+</head>
+
+<body>
+    <header class="header-principal">
+        <img src="" alt="Logo de Cronos">
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="propiedades.html">Propiedades</a>
+            <a href="usuarios.html">Usuarios</a>
+            <a href="inicio-sesion.html">Iniciar sesión</a>
+            <a href="#">Cerrar sesión</a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1 class="titulo-principal">Cronos Inmuebles</h1>
+        </div>
+
+        <section>
+            <h2>!Cuente con nosotros!</h2>
+            <p>Para vender o comprar sus propiedades.</p>
+            <p>Somos una empresa con más de 20 años en la industria de bienes raíces</p>
+            <button type="button">Empiece ya!</button>
+        </section>
+
+        <section id="sct-contacto">
+            <h2 class="subtitulo">Contáctenos</h2>
+            <form>
+                <div>
+                    <label for="">Nombre</label>
+                    <input type="text" id="txt-nombre">
+                </div>
+
+                <div>
+                    <label for="">Correo</label>
+                    <input type="email" id="txt_correo">
+                </div>
+
+                <div>
+                    <label for="">Fecha de nacimiento</label>
+                    <input type="date" id="txt_fecha">
+                </div>
+
+                <div>
+                    <label for=" ">Comentario</label>
+                    <textarea id="txt_comentario"></textarea>
+                </div>
+
+                <button type="button" class="boton-formulario" id="btn-enviar">Enviar</button>
+
+
+
+
+            </form>
+        </section>
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="js/servicio-contacto.js"></script>
+    <script src="js/controlador-index.js "></script>
+</body>
+
+</html>
